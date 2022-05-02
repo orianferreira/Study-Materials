@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EX2</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        text-align: center;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      .tabcolor {
+        background-color: gray;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead class="tabcolor">
+        <tr>
+          <th scope="col" rowspan="2">Área</th>
+          <th scope="col" rowspan="2">Disciplinas</th>
+          <th scope="colgroup" colspan="2">Notas</th>
+          <th scope="col" rowspan="2">Médias</th>
+        </tr>
+        <tr>
+          <th>1° Nota</th>
+          <th>2° Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="rowgroup" rowspan="4">Exatas</th>
+          <td>Matématica</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Física</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Química</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Biologia</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+        </tr>
+        <tr class="tabcolor">
+          <th scope="row" colspan="4">Média de Exatas</th>
+          <th>10</th>
+        </tr>
+        <tr>
+          <th scope="rowgroup" rowspan="2">Humanas</th>
+          <td>História</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Geografia</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+      <tfoot class="tabcolor">
+        <th scope="row" colspan="4">Média de Humanas</th>
+        <th>10</th>
+      </tfoot>
+    </table>
+  </body>
+</html>

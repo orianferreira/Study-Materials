@@ -1,0 +1,75 @@
+body {
+    background-image: url(../image/wallpaper001.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin: 8%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0%;
+    background-image: linear-gradient(to right, white, gray);
+}
+
+.square {
+    border: 1px solid black;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#s1 {
+    background-color: #6f00c2;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#s1:hover {
+    background-color: darkviolet;
+    box-shadow: 0px 0px 15px black;
+}
+
+#s2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#s2:hover {
+    background-image: linear-gradient(to top, yellow, red);
+    box-shadow: 0px 0px 15px black;
+}
+
+#s3 {
+    background-color: rgba(0, 0, 0, 0.500);
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#s3:hover {
+    background-image: url('../image/pattern001.png');
+    box-shadow: 0px 0px 15px black;
+    color: white;
+}

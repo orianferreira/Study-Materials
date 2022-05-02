@@ -1,0 +1,34 @@
+                    body {
+                        background-color: gray;
+                    }
+                    
+                    .wallpaper {
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 1px;
+                        text-align: center;
+                        border: 2px solid white;
+                    }
+                    
+                    h1 {
+                        color: #ffffff;
+                    }
+                    
+                    p {
+                        color: black;
+                    }
+                    
+                    .back {
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 5px;
+                        text-align: center;
+                    }
+                    
+                    iframe {
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 1px;
+                        text-align: center;
+                        border: 2px solid white;
+                    }

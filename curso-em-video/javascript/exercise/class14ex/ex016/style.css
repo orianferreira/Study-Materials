@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: blue;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+section {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.estetica {
+    margin-bottom: 5%;
+}
+
+#res {
+    margin-top: 5%;
+}
+
+footer {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

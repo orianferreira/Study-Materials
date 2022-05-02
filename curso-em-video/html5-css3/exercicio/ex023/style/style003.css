@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(gray, lightgray);
+}
+
+h1 {
+    display: none;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: white;
+}
+
+/*
+    valores = odd: inpar, even: par, (numero)+n: numero de linhas q serão puladas para o efeito, exemplo 2n, ou 2n-1.
+    
+    tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+    }
+*/
+
+td.num {
+    text-align: right;
+    font-weight: bold;
+}

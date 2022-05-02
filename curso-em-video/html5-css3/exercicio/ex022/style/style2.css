@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 55px 60px;
+    font-size: 50px;
+}
+
+#show {
+    display: none;
+}
+
+#mhover:hover #show {
+    display: block;
+}
+
+h1 {
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    border-radius: 200px;
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: black;
+    background-color: white;
+    transition: 5s;
+}
+
+p {
+    border: 10px solid black;
+    background-color: black;
+    border-radius: 200px;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}

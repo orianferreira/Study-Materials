@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: blue;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+section {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 3px 3px 10px black;
+}
+
+#tab {
+    width: 460px;
+    height: 300px;
+    padding: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#numero {
+    width: 264px;
+    margin-right: 20px;
+}
+
+#button {
+    padding: 5px;
+}
+
+.estetica {
+    margin-bottom: 5%;
+}
+
+footer {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
