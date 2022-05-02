@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="riana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-17 10:41:24 "/>
+        <attribute name="created" value="cmlhbmE7REVTS1RPUC1ROUpHTEVSOzIwMjItMDMtMTc7IjA0OjMzOjU2ICI7MjgwOQ=="/>
+        <attribute name="edited" value="cmlhbmE7REVTS1RPUC1ROUpHTEVSOzIwMjItMDMtMTc7IjEwOjQxOjI0ICI7NjsyOTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual &#233; seu nome ? :&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Agora digite suas notas: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Ol&#225; &quot; &amp; nome" newline="True"/>
+            <output expression="&quot;Sua M&#233;dia &#233;: &quot; &amp; media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! Voc&#234; foi Aprovado! Boas Festas!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media&gt;=4">
+                        <then>
+                            <output expression="&quot;Infelizmente voc&#234; esta, reprovado! Mas n&#227;o se preocupe, caso deseje aumentar suas notas converse com algu&#233;m da diretoria para fazer tarefas de Refor&#231;o!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Voc&#234; infelizmente vai reprovar de ano!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

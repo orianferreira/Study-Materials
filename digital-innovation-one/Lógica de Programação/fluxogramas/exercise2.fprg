@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="riana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-17 04:23:25 "/>
+        <attribute name="created" value="cmlhbmE7REVTS1RPUC1ROUpHTEVSOzIwMjItMDMtMTc7IjA0OjE3OjA3ICI7MjgwNw=="/>
+        <attribute name="edited" value="cmlhbmE7REVTS1RPUC1ROUpHTEVSOzIwMjItMDMtMTc7IjA0OjIzOjI1ICI7MTsyOTEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, mar&#231;o, abril" type="Integer" array="False" size=""/>
+            <declare name="media" type="Integer" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="mar&#231;o"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+mar&#231;o+abril)"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! Voc&#234; tem o direito de solicitar seu bonus de 10%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente suas vendas foram menos que a meta, porem voc&#234; ainda tem o direito de solicitar o bonus de 3%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

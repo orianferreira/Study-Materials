@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="riana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-17 11:03:17 "/>
+        <attribute name="created" value="cmlhbmE7REVTS1RPUC1ROUpHTEVSOzIwMjItMDMtMTc7IjEwOjUwOjI4ICI7MjgwNA=="/>
+        <attribute name="edited" value="cmlhbmE7REVTS1RPUC1ROUpHTEVSOzIwMjItMDMtMTc7IjExOjAzOjE3ICI7MTsyOTA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="limite" expression="90"/>
+            <output expression="&quot;Taboada do 9&quot;" newline="True"/>
+            <while expression="numero&lt;=90">
+                <output expression="&quot;Contagem: &quot; &amp; numero" newline="True"/>
+                <assign variable="numero" expression="numero+9"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

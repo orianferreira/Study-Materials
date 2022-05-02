@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive, 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+}
+
+#size-global-logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+#align {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#parceiros {
+    background: black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#servicos {
+    padding-top: 10px;
+    padding-bottom: 5%;
+}
+
+#navbar-nav {
+    display: flex;
+    justify-content: end;
+}
+
+.borda {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+}
+
+.fundo {
+    padding: 10px;
+    font-size: 3rem;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+}
+
+.nbgcolor {
+    background: black;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.parallax {
+    width: 400px;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.text-space {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-space2 {
+    margin-top: 1%;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.parcerias1 {
+    border: 1px solid black;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.parcerias1:hover {
+    background-color: rgba(128, 128, 128, 0.3);
+    cursor: pointer;
+}
+
+.servicos1 {
+    width: 500px;
+    margin: auto;
+    padding: 0;
+}
+
+footer {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: darkviolet;
+}
+
+@media screen and (max-width: 1000px){
+    #navbar-nav {
+        display: none;
+    }
+
+    .parallax {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .alinhamento {
+        display: block;
+    }
+}
