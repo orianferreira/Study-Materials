@@ -1,0 +1,20 @@
+
+public class TestaCondicional {
+
+	public static void main(String[] args) {
+
+		System.out.println("Testando condicionais...");
+		int idade = 18;
+		int permissao = 1;
+		if (idade >= 18) {
+			System.out.println("Condicional Completa");
+			System.out.println("Compra aprovada!");
+		} else { 
+			if (permissao == 1) {
+				System.out.println("Condicional Completa")
+			}
+			System.out.println("A condicional Falhou! \n Compra negada!");
+		}
+	}
+
+}

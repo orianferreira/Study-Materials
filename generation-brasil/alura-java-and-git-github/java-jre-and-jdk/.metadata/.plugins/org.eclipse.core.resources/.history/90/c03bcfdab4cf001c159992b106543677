@@ -1,0 +1,19 @@
+package desafios;
+
+public class AliquotaComIfs {
+
+	public static void main(String[] args) {
+
+		System.out.println(
+				"O João gostaria de criar um programa sobre Imposto de Renda (IR) e verificou as regras de alíquota. Ele descobriu no site da receita:\r\n"
+						+ "\r\n"
+						+ "De 1900.0 até 2800.0, o IR é de 7.5% e pode deduzir na declaração o valor de R$ 142\r\n"
+						+ "De 2800.01 até 3751.0, o IR é de 15% e pode deduzir R$ 350\r\n"
+						+ "De 3751.01 até 4664.00, o IR é de 22.5% e pode deduzir R$ 636\r\n"
+						+ "Para começar, o João escreveu o seguinte esboço de classe:\r\n" + "\r\n"
+						+ "public class TesteIR {\r\n" + "\r\n" + "    public static void main(String[] args) {\r\n"
+						+ "\r\n" + "        double salario = 3300.0;\r\n" + "\r\n" + "        //ifs aqui\r\n"
+						+ "    }\r\n" + "}COPIAR CÓDIGO\r\n"
+						+ "Agora ajude o João na implementação todas as regras usando condicionais!");
+	}
+}

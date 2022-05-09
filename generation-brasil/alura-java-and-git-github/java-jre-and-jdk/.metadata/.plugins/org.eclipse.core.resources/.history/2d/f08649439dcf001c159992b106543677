@@ -1,0 +1,16 @@
+
+public class TestaCondicional {
+
+	public static void main(String[] args) {
+		
+		System.out.println("TEstando condicionais");
+		int idade = 18;
+		if(idade >= 18) {
+			System.out.println("Condicional Completa");
+			System.out.println("Compra aprovada!");
+		} else {
+			System.out.println("Condicional Falhou! \n Compra recusada!");
+		}
+	}
+
+}

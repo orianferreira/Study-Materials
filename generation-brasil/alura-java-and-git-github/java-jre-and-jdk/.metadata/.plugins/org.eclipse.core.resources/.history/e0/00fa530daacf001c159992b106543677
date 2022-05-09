@@ -1,0 +1,32 @@
+
+public class TestaCondicional2 {
+
+	public static void main(String[] args) {
+
+		System.out.println("Testando condicionais...");
+
+		int idade = 18;
+		int Acompanhante = 1;
+
+		/*if (idade >= 18 || Acompanhante >= 2) {
+			System.out.println("Condicional Completa! \n" + "Acesso permitido!");
+		} else {
+			System.out.println("Condicional Incompleta! \n"
+					+ "Idade minima 18, ou esteja acompanhado de um responsavel de maior...");
+		}*/
+		
+		if (idade >= 18 && Acompanhante >= 2) {
+			System.out.println("Condicional Completa! \n" + "Acesso permitido!");
+		} else {
+			System.out.println("Condicional Incompleta! \n"
+					+ "Idade minima 18, ou esteja acompanhado de um responsavel de maior...");
+		}
+
+	}
+
+	// || significa ou
+	
+	// && significa e
+	
+	
+}

@@ -1,0 +1,15 @@
+
+public class TestaCondicional {
+
+	public static void main(String[] args) {
+		
+		System.out.println("TEstando condicionais");
+		int idade = 18;
+		if(idade >= 18) {
+			System.out.println("Você ta fodido meu pacero");
+		} else {
+			System.out.println("Eu sou vagabundo mesmo");
+		}
+	}
+
+}
